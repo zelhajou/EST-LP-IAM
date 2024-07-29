@@ -119,3 +119,6 @@ Au cours de la formation, j'ai utilisé plusieurs outils et technologies pour le
 **Outils de Gestion de Versions**
  - **Git**: Utilisé pour le contrôle de version et la gestion des projets collaboratifs.
  - **GitHub**: Utilisé comme plateforme de collaboration pour héberger et partager des projets.
+
+## Contact Information
+Pour toute question ou collaboration, vous pouvez me contacter via zelahjou@gmail.com.
