@@ -110,3 +110,12 @@ Au cours de la formation, j'ai utilisé plusieurs outils et technologies pour le
 - **SQLite**: Utilisé pour le stockage de données locales dans les applications mobiles.
 - **Firebase**: Utilisé pour le stockage de données en temps réel et l'authentification des utilisateurs.
 - **MySQL**: Utilisé pour la gestion des bases de données relationnelles.
+
+**Environnements de Développement Intégré (IDE)**
+- **Android Studio**: Utilisé pour le développement d'applications Android.
+- **Xcode**: Utilisé pour le développement d'applications iOS.
+- **Visual Studio Code**: Utilisé pour le développement web et multiplateforme.
+
+**Outils de Gestion de Versions**
+ - **Git**: Utilisé pour le contrôle de version et la gestion des projets collaboratifs.
+ - **GitHub**: Utilisé comme plateforme de collaboration pour héberger et partager des projets.
