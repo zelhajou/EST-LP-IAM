@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Jouons avec jQuery !</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+.accordion h3{
+width: auto;
+    background-color: #9E9E9E;
+    color: white;
+    margin: 9px 0 0px 0px;
+    padding: 10px;
+	cursor: crosshair;
+}
+.accordion div{
+    border: 1px solid;
+    padding: 10px;
+    font-size: 14px;
+}
+.fleche{
+    position: fixed;
+    right: 35px;
+    bottom: 35px;
+	display:none;
+}
+.affiche{
+display:block;
+}
+.fixed{
+position: fixed;
+top:0;
+right:0;
+left:0;
+}
+
+</style>
+</head>
+
+<body>
+<div class="conteneur">
+
+<h2>Fenêtre modale</h2>
+<button class="modal-open">EN SAVOIR +</button>
+<section class="modal-bg">
+ <div class="modal-content">
+ <h1>Un petit message informatif !</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quasi
+repellat ab eos nesciuntofficia distinctio quidem laboriosam soluta repellendus
+iusto, non reprehenderit consequuntur nostrum eum iurecum autem asperiores.
+ </p>
+ <div class="modal-close">
+ <i class="fas fa-times-circle"></i>
+ </div>
+ </div>
+</section>
+ <h2>Navigation responsive</h2>
+ <!--navigation dekstop -->
+ <nav id="menu">
+ <ul>
+ <li><a href="#">Item 1</a></li>
+ <li><a href="#">Item 2</a></li>
+ <li><a href="#">Item 3</a></li>
+ <li><a href="#">Item 4</a></li>
+ </ul>
+ </nav>
+ <!--navigation mobile -->
+ <nav id="menu-mobile">
+ <span class="btn">
+ <i class="fas fa-bars"></i>
+ </span>
+ <ul>
+ <li><a href="#">Item 1</a></li>
+ <li><a href="#">Item 2</a></li>
+ <li><a href="#">Item 3</a></li>
+ <li><a href="#">Item 4</a></li>
+ </ul>
+ </nav>
+
+<h2>FAQ</h2>
+<div class="accordion">
+ <h3>Question 1</h3>
+ <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+repellat quos cupiditate corporis nesciunt numquam voluptates modi aliquid ut
+ullam distinctio eaque laudantium, odit iusto aperiam expedita quas enim
+qui.</div>
+ <h3>Question 1</h3>
+ <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+repellat quos cupiditate corporis nesciunt numquam voluptates modi aliquid ut
+ullam distinctio eaque laudantium, odit iusto aperiam expedita quas enim
+qui.</div>
+ <h3>Question 1</h3>
+ <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+repellat quos cupiditate corporis nesciunt numquam voluptates modi aliquid ut
+ullam distinctio eaque laudantium, odit iusto aperiam expedita quas enim
+qui.</div>
+</div>
+
+    </div>
+
+
+<a class="fleche" href="#top"><i class="fas fa-arrow-circle-up"></i></a>
+
+
+
+    <script defer src="js/font-awesome.min.js"></script>
+<script>
+$(".modal-bg").hide();
+$(".modal-close").click(function(){
+  $(".modal-bg").hide();
+});
+$(".modal-open").click(function(){
+ // $(".modal-bg").show();
+  $(".modal-bg").fadeIn();
+//  $(".modal-content").slideDown("slow");
+});
+
+$(document).ready(function(){
+$(".btn").click(function(){
+  $("#menu-mobile ul").toggle();
+ 
+});
+});
+
+$(".accordion div").hide();
+$(document).ready(function(){
+$(".accordion h3").click(function(){
+  //$(this).prevAll("div").hide();
+//  $(this).nextAll("div").hide();
+  $(this).next().toggle();
+  $(this).next().siblings("div").hide();
+});
+});
+
+ //Ajouter classe au scroll
+ $(window).scroll(function() {
+ var scroll = $(window).scrollTop();
+ if (scroll >= 50) {
+ $(".fleche").addClass("affiche");
+ $("#menu").addClass("fixed");
+ } else {
+ $(".fleche").removeClass("affiche");
+ $("#menu").removeClass("fixed");
+ }
+ });
+</script>
+</body>
+
+</html>

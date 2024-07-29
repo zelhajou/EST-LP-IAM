@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/jquery.js"></script>
+    <script>
+            $(document).ready(function () {
+            $('button').click(function(){
+            $('.bg-info').slideToggle();
+            });
+        });
+    </script>
+    <style>
+        .box,
+        .bg-info {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <button class="btn btn-primary">Plier/Déplier</button>
+        <p class="bg-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic voluptate eum, sit
+            possimus nostrum, ducimus beatae? Voluptatibus, harum. Modi error consectetur quasi alias quas obcaecati
+            dolorem quam! Quisquam, impedit!</p>
+    </div>
+</body>
+</html>

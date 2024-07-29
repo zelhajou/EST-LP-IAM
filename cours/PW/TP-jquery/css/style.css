@@ -1,0 +1,202 @@
+/***************************************************
+GLOBAL
+***************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+img,
+iframe,
+video {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(6, 143, 177);
+    transition: all .5s ease;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+}
+
+
+/***************************************************
+STRUCTURE
+***************************************************/
+
+.conteneur{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+ 
+}
+
+/***************************************************
+TYPO
+***************************************************/
+p{
+    line-height: 120%;
+}
+.logo{
+    margin-top: 0;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    font-weight: normal;
+    font-size: 2.25rem;
+}
+h2{
+    margin-top: 0;
+    padding-top: 4.5rem;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0.3);
+    border:none;
+    font-size: .75rem;
+    padding: .7rem 1.25rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/***************************************************
+FENETRE MODALE
+***************************************************/
+/* Fond transparent */
+.modal-bg{
+ /* "Accroché" à la fenêtre du navigateur */
+ position: fixed;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ /* Transparence */
+ background-color: rgba(0, 0, 0, 0.85);
+ /* Centrer horizontalement et verticalement le contenu */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+/* Conteneur (fond blanc) */
+.modal-content{
+ background-color: #fff;
+ padding: 50px;
+ width: 50%;
+ max-width: 1000px;
+ /* Positionnée pour servir de référent à l'icone fermeture*/
+ position: relative;
+ border-radius: 2px;
+}
+/* Boite contenant l'icone fontawesome */
+.modal-close{
+ /* Positionnée en haut, à droite de son 1er parent positionné (conteneur) */
+ position: absolute;
+ padding: 5px;
+ top: -18px;
+ right:-18px;
+ /* Couleur du fond de la croix */
+ color: rgba(0, 0, 0, 0.95);
+ font-weight: 400;
+ cursor: pointer;
+ z-index: 100;
+}
+/* Icone fontawesome - croix */
+.fa-times-circle{
+ font-size: 1.5rem;
+ /* Couleur de la croix */
+ background-color: #fff;
+ border: 2px solid #fff;
+ border-radius: 50%;
+ box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.5);
+}
+
+/***************************************************
+MENU
+***************************************************/
+#menu {
+ background-color: rgba(0, 0, 0, 0.3);
+}
+#menu ul {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-transform: uppercase;
+}
+#menu li:last-child {
+ border-right: none;
+}
+#menu a {
+ padding: 1.5rem 2rem;
+ display: block;
+ font-weight: 700;
+ border-right: 1px solid rgba(255, 255, 255, 0.25);
+ color: rgb(255,255,255);
+}
+#menu a:hover{
+ background-color: rgba(0, 0, 0, 0.5);
+}
+#menu li:last-child a {
+ border-right: none;
+}
+/***************************************************
+MENU MOBILE
+***************************************************/
+#menu-mobile {
+ display: none;
+}
+#menu-mobile .btn {
+ cursor: pointer;
+ display: block;
+ color: rgba(0, 0, 0, 0.5);
+ font-size: 2rem;
+ text-align: right;
+}
+#menu-mobile ul {
+ padding-top: 0.5rem;
+}
+#menu-mobile li {
+ background-color: rgba(0, 0, 0, 0.3);
+}
+#menu-mobile a {
+ padding: 1rem;
+ display: block;
+ color: rgba(255, 255, 255, .9);
+ font-weight: bold;
+ text-transform: uppercase;
+ border-bottom: 1px solid rgba(255, 255, 255, .9);
+}
+@media screen and (max-width: 800px) {
+  #menu { display: none;}
+  #menu-mobile { display: flex;}
+}
