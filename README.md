@@ -121,4 +121,4 @@ Au cours de la formation, j'ai utilisé plusieurs outils et technologies pour le
  - **GitHub**: Utilisé comme plateforme de collaboration pour héberger et partager des projets.
 
 ## Contact Information
-Pour toute question ou collaboration, vous pouvez me contacter via zelahjou@gmail.com.
+Pour toute question ou collaboration, vous pouvez me contacter via zelhajou@gmail.com.
