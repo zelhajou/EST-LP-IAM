@@ -3,6 +3,28 @@
 ## Introduction
 Ce dépôt dédié à la Licence Professionnelle en Ingénierie des Applications Mobiles (LP-IAM) de [l'École Supérieure de Technologie de Salé](https://www.est.um5.ac.ma/). Ce dépôt contient l'intégralité de mon parcours académique, les compétences acquises, ainsi que toutes les découvertes faites au cours de ce programme de Licence.
 
+## Contenu du Dépôt
+
+Le dépôt est structuré comme suit:
+- `cours/`: Contient les cours et supports de formation.
+- `projets/`: Contient les projets réalisés au cours de la formation.
+- `ressources/`: Contient les ressources utiles pour le développement d'applications mobiles.
+- `outils/`: Contient les outils et technologies utilisés pour le développement d'applications mobiles.
+- `rapports/`: Contient les rapports des projets réalisés.
+- `images/`: Contient des images et captures d'écran des projets.
+<!-- - `certificats/`: Contient les certificats de réussite et de participation. -->
+
+
+## Plan
+
+1. [Introduction](#introduction)
+2. [A propos de l'École Supérieure de Technologie de Salé](#a-propos-de-lécole-supérieure-de-technologie-de-salé)
+3. [A propos de la Licence Professionnelle en Ingénierie des Applications Mobiles](#a-propos-de-la-licence-professionnelle-en-ingénierie-des-applications-mobiles)
+4. [Programme de la Formation](#programme-de-la-formation)
+5. [Projets Réalisés](#projets-réalisés)
+6. [Projet de Fin d'Études](#projet-de-fin-détudes)
+7. [Outils et Technologies Utilisés](#outils-et-technologies-utilisés)
+
 ## A propos de l'École Supérieure de Technologie de Salé
 L'École Supérieure de Technologie de Salé (EST Salé) est un établissement d'enseignement supérieur affilié à l'Université Mohammed V de Rabat. Elle offre des formations professionnelles axées sur la pratique et orientées vers les besoins du marché du travail.
 
