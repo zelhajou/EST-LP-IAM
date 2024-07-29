@@ -67,7 +67,6 @@ Le programme est structuré autour de plusieurs modules couvrant différents asp
 - **M8**: Architecture et Sécurité des Réseaux Mobiles
 - **M9**: Mobilité et Géo-localisation
 - **M10**: Programmation Avancée pour Mobile sous Android
-- **M11**: HMI U
 - **M11 & M12**: Projet Tutoré
 
 ## Projets Réalisés
