@@ -90,37 +90,37 @@ Le projet de fin d'études est une composante essentielle de la Licence, permett
 
 Au cours de la formation, j'ai utilisé plusieurs outils et technologies pour le développement d'applications mobiles multiplateformes, la gestion de bases de données, la gestion de projets et la collaboration.
 
+
+```bash
+langages_de_Programmation/          # Languages used in software development
+├── Java/                           # "Utilisé pour la programmation mobile sous Android."
+├── Swift/                          # "Utilisé pour la programmation mobile sous iOS."
+├── HTML5_CSS3/                    # "Utilisés pour le développement web."
+├── JavaScript/                     # "Utilisé pour le développement de fonctionnalités interactives sur le web."
+└── PHP/                            # "Utilisé pour le développement d'applications web côté serveur."
+
+Frameworks_et_Bibliothèques/       # Frameworks and libraries for app development
+├── React_Native/                  # "Utilisé pour le développement d'applications mobiles multiplateformes."
+├── Bootstrap/                      # "Utilisé pour le design responsive des applications web."
+└── Laravel/                        # "Utilisé pour le développement d'applications web."
+
+Bases_de_Données/                  # Database management systems
+├── SQLite/                         # "Utilisé pour le stockage de données locales dans les applications mobiles."
+├── Firebase/                       # "Utilisé pour le stockage de données en temps réel et l'authentification des utilisateurs."
+└── MySQL/                          # "Utilisé pour la gestion des bases de données relationnelles."
+
+Environnements_de_Développement_Intégré_IDE/ # Integrated Development Environments
+├── Android_Studio/                # "Utilisé pour le développement d'applications Android."
+├── Xcode/                         # "Utilisé pour le développement d'applications iOS."
+└── Visual_Studio_Code/            # "Utilisé pour le développement web et multiplateforme."
+
+Outils_de_Gestion_de_Versions/     # Version control tools
+├── Git/                            # "Utilisé pour le contrôle de version et la gestion des projets collaboratifs."
+└── GitHub/                         # "Utilisé comme plateforme de collaboration pour héberger et partager des projets."
+```
+
 [![My Skills](https://skillicons.dev/icons?i=java,swift,html,css,javascript,react,bootstrap,figma,sqlite,firebase,mysql,androidstudio,vscode,git,github,netlify)](https://skillicons.dev)
 
-
-**langages de Programmation**
-
-- **Java:** Utilisé pour la programmation mobile sous Android.
-- **Swift**: Utilisé pour la programmation mobile sous iOS.
-- **HTML5/CSS3**: Utilisés pour le développement web.
-- **JavaScript**: Utilisé pour le développement de fonctionnalités interactives sur le web.
-- **PHP**: Utilisé pour le développement d'applications web côté serveur.
-
-**Frameworks et Bibliothèques**
-
-- **React Native**: Utilisé pour le développement d'applications mobiles multiplateformes.
-- **Bootstrap**: Utilisé pour le design responsive des applications web.
-- **laravel**: Utilisé pour le développement d'applications web.
-
-**Bases de Données**
-
-- **SQLite**: Utilisé pour le stockage de données locales dans les applications mobiles.
-- **Firebase**: Utilisé pour le stockage de données en temps réel et l'authentification des utilisateurs.
-- **MySQL**: Utilisé pour la gestion des bases de données relationnelles.
-
-**Environnements de Développement Intégré (IDE)**
-- **Android Studio**: Utilisé pour le développement d'applications Android.
-- **Xcode**: Utilisé pour le développement d'applications iOS.
-- **Visual Studio Code**: Utilisé pour le développement web et multiplateforme.
-
-**Outils de Gestion de Versions**
- - **Git**: Utilisé pour le contrôle de version et la gestion des projets collaboratifs.
- - **GitHub**: Utilisé comme plateforme de collaboration pour héberger et partager des projets.
 
 ## Contact Information
 Pour toute question ou collaboration, vous pouvez me contacter via zelhajou@gmail.com.
